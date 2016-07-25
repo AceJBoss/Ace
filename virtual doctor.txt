@@ -1,0 +1,16 @@
+Use d flowchart pictures format to create urz bou Virtual Doctor: 
+D format is in two places, 
+1:System Flowchart(SF)
+2:Program Flowchart
+@ SF
+Start,Display Splashscreen, Login, Homepage...Homepage hav d following. Patient, Doctor, Customer Care
+@ PF
+U will treat each of dem as a new flowchart. 
+Like "Login"
+Start, login, Connect to DB,Enter Username/password,if doctor (Doc homepage) if patient(Patient Hompage),else Close Db, Stop.
+@Patient
+Start, Patient, Open DB, Get Medical Advice, View Doctor Response, Close DB, stop.
+@Doctor
+Start, Doctor, Open DB, Register Doctor, Register Patients, Diagnose Patient, View Medical History,  Close DB, Stop.
+@Customer Care
+Start, Customer care, Dial 213, If Connected(Voice Prompts) Press 1 for Malaria, Press 2 for Fever etc, if nt connected,  wrong number dialled. Close Connection, Stop.

@@ -1,0 +1,15 @@
+int def_matri=120000;
+rs.last();
+if(rs.getSTring("matric")==null)
+{
+	insert def_matric into db;
+}
+else
+{
+	String mt = rs.getString("matric";
+	int rm = Integer.parse(mt)+1;
+	insert String.valueOf(rm) into db;
+}
+coursecode == 6 == cse505 == userdefined
+quescode   == 10 == cse505q100 == last3 auto gen
+matric === 6 == 120000 == auto gen
